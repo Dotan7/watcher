@@ -1,0 +1,275 @@
+.App {
+  text-align: center;
+}
+.homeContainer,
+.WelcomePageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.welcomeBtnsDivs {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 0.5%;
+}
+.welcomeBtns {
+  width: 20%;
+  height: 30px;
+  cursor: pointer;
+  background-color: #6da0ed;
+  border: none;
+}
+.welcomeBtns:hover {
+  border: solid 1px white;
+}
+
+.setDeviceDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.setDevice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background-color: #6da0ed;
+  margin-left: 4%;
+  margin-right: 4%;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}
+.deviceContainer,
+.watcherContainer,
+.controllerContainer {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.headline {
+  display: flex;
+  background-color: #6da0ed;
+  width: 100%;
+  /* justify-content: space-around; */
+  align-items: center;
+  height: 5%;
+  margin-bottom: 0.5%;
+}
+
+.headlineWatcher {
+  display: flex;
+  background-color: #6da0ed;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 5%;
+  margin-bottom: 0.5%;
+}
+
+.copyBtnDiv {
+  position: relative;
+  display: flex;
+  margin-left: 0.5%;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  /* width: 30%; */
+}
+.idSpan {
+  margin-right: 0.5%;
+}
+.copyBtnIcon {
+  border: 1px solid rgba(255, 255, 255, 0);
+  cursor: pointer;
+  border-radius: 15%;
+}
+.copyBtnTag {
+  position: absolute;
+  top: 120%;
+  left: 69%;
+  width: 40px;
+  display: none;
+  font-size: x-small;
+  border-radius: 5px;
+  padding: 0.5%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: default;
+}
+.copyBtnIcon:hover {
+  background-color: rgb(130, 215, 238);
+}
+.copyBtnIcon:hover + .copyBtnTag {
+  display: block;
+}
+/* background-color: #936ded; */
+
+.accountDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watcherStartForm {
+  display: flex;
+  /* width: 100%; */
+  height: 30%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.WatcherStartFormInp {
+  margin: 0% !important;
+  padding: 0% !important;
+}
+
+.PhoneIconBtn {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  padding: 5%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #6da0ed;
+}
+.PhoneIconBtn:hover {
+  border: 1px solid black;
+}
+.videoDiv {
+  /* height: 100px; */
+  position: relative;
+  margin: 0%;
+  padding: 0%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.videoDivLine {
+  width: 100px;
+  /* height: 100px; */
+  margin-top: 1%;
+  /* padding: 0%; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #6dedba;
+}
+
+.watcherVideo {
+  display: flex;
+  flex-direction: column;
+  /* width: 30%; */
+  /* position: relative; */
+  justify-content: end;
+  align-items: center;
+}
+
+.streamVideoWacherToAdmin {
+  width: 100%;
+  height: 100%;
+}
+
+.onWatcherBtnsDiv {
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  cursor: pointer;
+}
+
+.onWatcherBtns {
+  /* background-color: #6da0ed6b; */
+  /* border: solid 1px black; */
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  /* border: solid 1px #936ded; */
+  /* width: 34px; */
+}
+.onWatcherBtns:hover {
+  border: solid 1px #6da0ed;
+}
+.videoDivAdminToWatcher {
+  width: 50%;
+  position: relative;
+}
+
+.logoScreenSaverDiv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/watcherBg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.caller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
+
+.phoneLogoToAnswer {
+  width: 30px !important;
+}
+
+.bottomActionsLine {
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 1%;
+  /* border-radius: 10px; */
+  /* background-color: #6da0ed; */
+  /* background-color: #eb3f3f; */
+  height: 5%;
+  width: 16%;
+  /* color: white; */
+  cursor: pointer;
+}
+
+.bottomLineActionsBtns {
+  background-color: #6da0ed;
+  /* border: solid 1px black; */
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  /* border: solid 1px #936ded; */
+  /* width: 34px; */
+}
+.bottomLineActionsBtns:hover {
+  border: solid 1px #936ded;
+}
+
+.disconnectPopTextDiv {
+  color: white;
+  background-color: tomato;
+  width: 100%;
+  border-radius: 10px;
+  padding: 0.5%;
+  margin: 0.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disconnectPopText {
+  margin: 0%;
+  padding: 0%;
+}
